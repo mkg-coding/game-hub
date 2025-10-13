@@ -19,8 +19,8 @@ const GenreList = ({ onSelectGenre, selectedGenre }: Props) => {
   const { data, isLoading, error } = useGenres();
   const skeletons = [1, 2, 3, 4, 5, 6];
 
-  if (error) return null;
-  //if (isLoading) return <Spinner />;
+  // if (error) return null;
+  // if (isLoading) return <Spinner />;
   return (
     <>
       <Heading fontSize="2xl" marginBottom={3}>
